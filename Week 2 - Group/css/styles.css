@@ -1,0 +1,282 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fff;
+    text-decoration: none;
+    line-height: 1.5;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/*=======================
+        NAV    
+=======================*/
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #333333;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
+
+.nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 10px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.nav-link:hover {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.button {
+    border: 2px solid;
+    margin-right: 20px;
+    padding: 7px 12px 7px 12px;   
+}
+
+.button:hover {
+    background-color: #3292A8;
+    transition: 0.5s;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+/*=======================
+        HEADER   
+=======================*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.div-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.div-container-1 img {
+
+    height: 60%;
+    padding-bottom: 10px;
+}
+
+
+.trial-button {
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid;
+    padding: 7px 0px 7px 0px;
+    width: 15%;
+}
+
+.trial-button:hover {
+    background-color: #3292A8;
+    color: white;
+    transition: 0.5s;
+    border-color: black;
+}
+
+.get-started {
+    width: 55%;
+
+}
+
+
+/*=======================
+        Section 3    
+=======================*/
+
+
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #333333;
+    color: #f1f1f1;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+.course-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.course-images {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 40px 20px;
+    text-align: left;
+    border-radius: 6px;
+    line-height: 1.5;
+    flex-wrap: wrap;
+}
+
+.course-images img {
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 400px;
+}
+
+.course-text {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+.learn-more {
+
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    
+}
+
+.learn-more:hover {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.learn-more p {
+    margin: 0;
+
+}
+
+/*=======================
+        Footer   
+=======================*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: center;
+    background-color: #6a85b6;
+
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #f1f1f1;
+    width: 100%;
+}
+
+.footer-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+.footer-links ul li a {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    display: block;
+}
+
+.footer-links ul li a:hover {
+
+    
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.dash {
+    color: white;
+    
+}
+
+.footer-border {
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    border-bottom: 1px solid;
+    width: 90%;
+    border-color: white;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+

@@ -1,0 +1,309 @@
+
+@import url(href=https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    height: 100%;
+    
+    
+}
+
+header { 
+    background-color: teal;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 100px;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    margin-bottom: 50px;
+
+}
+
+ .nav-wrapper {
+    margin-top: 30px;
+    float: right;
+    margin-right: 20px;
+
+}
+
+.nav a {
+    padding: 20px;
+    color: black;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#edu {
+    position: absolute;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-button {
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+
+.header-button {
+    width: 240px;
+    height: 60px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.header-button {
+    margin-top: 400px;
+    font-size: 20px;
+}
+
+.free-trial {
+    height: 300px;
+    text-align: center;
+    background-color: rgb(242, 242, 242);
+
+}
+.freetrial {
+    background: black;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 70px;
+}
+/* header nav a button {
+   padding-right: 20px;
+   float: right;
+   align-content: flex-end;
+
+} */
+
+.header-content {
+    background-image: url('images/fogg.png');
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+
+}
+
+.about-wrapper {  
+    background: teal;
+    color: black;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text-wrap {
+    max-width: 500px;
+    float: left;
+    text-align: left;
+    margin-top: 30px;
+}
+
+
+.about-photo {
+    background-image: url('images/lotusflower.png');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+}
+
+.benefits-wrapper {
+    background: white;
+    color: black;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits-text-wrap {
+    max-width: 500px;
+    float: left;
+    text-align: left;
+
+}
+
+.benefits {
+    display: inline-block;
+    padding: 50px;
+}
+
+.benefits-photo {
+    background-image: url('images/fogg-premium-upgrade-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+    float: left;
+}
+
+.lesson-plan {
+    background: rgb(136, 185, 181);
+
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+ h2 {
+    padding-top: 50px;
+    text-align: center;
+    margin: 0;
+} 
+
+.lesson-plan-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    background-color: rgb(136, 185, 181);
+
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.review-wrapper {
+    
+    background-color:white;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.review {
+    padding-top: 50px;
+    font-size: 18px;
+
+}
+
+.week {
+    background: black;
+    width: 250px;
+    height: 250px;
+    
+    margin: auto;
+
+    
+}
+
+#week-1 {
+    background-color: rgb(242, 242, 242);
+    background-image: url('images/punctuality-on-time-arrive-habits-512.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#week-2 {
+    background-color: rgb(242, 242, 242);
+    background-image: url('images/mindfulconnect.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+#week-3 {
+    background-color: rgb(242, 242, 242);
+    background-image: url('images/struggle.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#week-4 {
+    background-color: rgb(242, 242, 242);
+    background-image: url('images/week4.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.week-text {
+    margin-top: 280px;
+    font-weight: bold;
+    font-size: 25px;
+}
+footer {
+    height: 410px;
+    width: 100%;
+    background-color: teal;
+    text-align: center;
+    padding: 60px;
+    
+}
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 0.5fr);
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+
+.footer-edu {
+    font-size: 24px;
+}
+
+hr {
+    width: 1000px;
+    margin-top: 50px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: teal;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-top: 30px;
+
+  }
+
+.footer-wrapper-2 {
+    
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 100px;
+}
