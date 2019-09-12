@@ -1,0 +1,233 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+main{
+  height: 2300px;
+  overflow-x: hidden;
+  /* background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
+  /* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  background-image: linear-gradient(to top, #537895 0%, #09203f 100%);
+  background-size: auto;
+}
+
+header{
+  top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+header h1{
+  font-size: 16px;
+  position: absolute;
+  left: 20px;
+  top: 4px;
+}
+
+header a {
+  margin-top: 16px;
+  margin-right: 17px;
+}
+
+section{
+  display: block;
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 14px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+
+.firstpage{
+  margin-top: 14%;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  z-index: 5;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  color: white;
+}
+
+.firstpage p{
+  margin: 0 200px;
+  line-height: 1.8;
+  color: white;
+  font-size: 20px;
+}
+
+.bgimg{
+  position: absolute;
+  width: 99vw;
+  height: auto;
+}
+
+.box1{
+  position: absolute;
+  z-index: 4;
+}
+.box2{
+  position: absolute;
+  z-index: 2;
+}
+.box3{
+  position: absolute;
+  z-index: 1;
+  top: -200px;
+}
+
+.startFree {
+  width: 180px;
+  height: 50px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.description{
+  position: absolute;
+  display: block;
+  width: 100vw;
+  height: auto;
+  background-color: #09203f;
+  top: 110vh;
+  z-index: 3;
+}
+.description h2{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 160px;
+  color: white;
+  font-size: 36px;
+}
+
+.description p{
+  margin: 5% 5%;
+  padding: 6% 15%;
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 1.8;
+  color: pink;
+  font-size: 20px;
+}
+
+.courses{
+  position: relative;
+  top: 180vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.courses h1{
+  position: absolute;
+  top: -40vh;
+}
+
+.card{
+  width: 30vw;
+  height: 25vw;
+  background-color: white;
+  z-index: 3;
+}
+
+.card p{
+  position: relative;
+  font-weight: bold;
+  top: -50px;
+  color: black;
+  text-align: center;
+}
+
+.block-1 img{
+  padding: 8% 15%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.block-2 img{
+  padding: 8% 15%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.block-3 img{
+  padding: 8% 15%;
+  height: 80%;
+  overflow: hidden;
+}
+
+footer{
+  background-color: #537895;
+  height: 160px;
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+  z-index: 12;
+}
+
+footer .logo{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  color: black;
+  padding: 0 400px; 
+}
+
+footer li{
+  margin: 0 10px;
+}
