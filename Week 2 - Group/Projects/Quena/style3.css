@@ -1,9 +1,7 @@
 
-
 body {
     display: grid;
     font-family: 'Roboto', sans-serif;
-    width: 100%;
 
     
 }
@@ -75,18 +73,18 @@ a:hover {
 }
 
 #dance {
-
+    position: relative;
     background-color: rgba(4, 5, 7, 0.699);
     left: 325px;
     top: 50px;
     font-size: 70px;
     text-transform: uppercase;
-
+    padding-left: 18px;
     width: 1440px;
 }
 
 #tech {
-
+    position: relative;
     background-color: rgba(4, 5, 7, 0.534);
     left: 865px;
     top: 44px;
@@ -96,7 +94,7 @@ a:hover {
 }
 
 #mindfulness {
-
+    position: relative;
     background-color: rgba(110, 33, 133, 0.459);
     left: 425px;
     top: 64px;
@@ -106,7 +104,7 @@ a:hover {
 }
 
 #internship {
-
+    position: relative;
     background-color: rgba(72, 44, 85, 0.699);
     left: 825px;
     top: 80px;
@@ -283,9 +281,6 @@ h2 {
     font-size: 32px;
 }
 
-.section-6 {
-
-}
 
 .button-container {
     display: flex;
@@ -362,8 +357,4 @@ hr {
     height: 40px;
     font-size: 14px;
     margin-top: 100px;
-}
-
-body {
-    padding: 0;
 }
